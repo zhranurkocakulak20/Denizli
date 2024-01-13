@@ -1,0 +1,118 @@
+*{
+    margin-top: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #E0F7FA;
+    padding: 0;
+    margin: 0;
+}
+ikon{
+    padding: 10px;
+    margin: 10px;
+}
+/* horozun img ıd olan */
+#ikon{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+a{
+    color: rgb(15, 31, 31);
+    border-width: 10px;
+    border-color:darkgray;
+    border-style:hidden;
+    padding: center;
+    margin: 0;
+}
+.menu{
+    position:absolute;
+    margin-top: 0;
+    left: 0;
+    padding: 0px;
+    display:inline-block;
+    justify-content:left;
+    font-size: 20;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 250px;
+}
+li{
+    float: left;
+    font-size: 20px;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(201, 199, 199);
+}
+/* sosyal_medya_ikonu */
+.ikon{
+    position: absolute;
+    transform: translateY(-50);
+    width: 100%;
+    text-align:center;
+    bottom: 10%;
+/* bottom aşagı yukarı yaptırdı */
+}
+
+/* butonların_kodları */
+/* border-radius_cercevenin_yumuşaklığı */
+/* overflow=sığmayan yerlerin ne olacağını belirleme hidden gizli demek */
+.btn{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px #00000070;
+    color:#3498db;
+    /* overflow: hidden; */
+    }
+/* içindeki simgelerin özellikleri */
+.btn i{
+    line-height: 60px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+/* scale üzerine gelince büyüme süresi */
+.btn:hover i{
+    transform: scale(1.3);
+    color:#f1f1f1 ;
+}
+/* Hakkında css */
+
+table, th, td {
+    border: 2px solid black;
+}
+.paragraf{
+    width: 1050px;
+    margin: auto;
+    font-size: 20px;
+}
+.resimler{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 20px 15px 20px grey;
+    border-radius: 15px;
+    margin-right: 20px;
+    background-color: azure;
+}
+.hakkında{
+    float:left;
+    margin:10px 50px 20px 20px;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+}
+.menu a:hover {
+    background-color: rgba(255, 228, 196, 0.392);
+    color: black;
+}
